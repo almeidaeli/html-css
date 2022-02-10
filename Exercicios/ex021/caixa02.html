@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding-left: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        nav{
+            background-color: rgb(7, 46, 44);
+            padding: 3px;
+            margin-right: 30px;
+            box-shadow: 5px 4px 7px rgba(0, 0, 0, 0.452);
+            border-radius: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 169px;
+            box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.452);
+        }
+
+        article{
+            background-color: lightgrey;;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(83, 83, 83);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Moz</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos ut quam ea totam quasi amet, voluptatum sed modi beatae, ab odio inventore reiciendis ipsam nihil earum officiis iste itaque.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Eli Almeida</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
